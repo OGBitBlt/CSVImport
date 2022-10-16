@@ -1,0 +1,25 @@
+{
+    "name": "ogbitblt/csv-import",
+    "description": "php library for validating and bulk importing data from CSV file into MySQL",
+    "type": "library",
+    "keywords": [
+        "csv",
+        "import",
+        "bulkload",
+        "mysql"
+    ],
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Anthony Davis",
+            "email": "ogbitblt@pm.me"
+        }
+    ],
+    "autoload": {
+        "classmap": ["src/"],
+        "psr-4": {"OGBitBlt\\CSVImport\\":"src/"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
